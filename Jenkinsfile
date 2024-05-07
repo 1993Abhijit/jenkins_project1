@@ -9,7 +9,7 @@ pipeline{
 	  
 	  stage("checkout"){
 	   steps{
-	   git credentialsId: 'jenkins', url: 'https://github.com/1993Abhijit/jenkins2.git'
+	  git credentialsId: 'jenkins', url: 'https://github.com/1993Abhijit/jenkins_project1.git'
 	   }
 	                  }
 	
