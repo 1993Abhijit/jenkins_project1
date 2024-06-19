@@ -30,11 +30,16 @@ pipeline{
 		}
 		}
 		
-		stage("install"){
+		stage("deploy"){
 	    steps{
 		 echo "deploy my app"
 		}
+		}stage("install"){
+	    steps{
+		 echo "install my app"
 		}
+		}
+		  
 
 
 	  }
