@@ -30,7 +30,7 @@ pipeline{
 		}
 		}
 		
-		stage("deploy"){
+		stage("install"){
 	    steps{
 		 echo "deploy my app"
 		}
