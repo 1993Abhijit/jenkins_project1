@@ -34,7 +34,8 @@ pipeline{
 	    steps{
 		 echo "deploy my app"
 		}
-		}stage("install"){
+		}
+		  stage("install"){
 	    steps{
 		 echo "install my app"
 		}
